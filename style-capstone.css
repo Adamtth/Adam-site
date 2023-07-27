@@ -1,0 +1,57 @@
+.top-container{
+    background-color: bisque;
+    position: relative;
+    
+}
+.curlybr{
+    position: absolute;
+    left: 80%;
+    top: 65%;
+}
+.desktop{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    padding: 10px;
+}
+body {
+    display: block;
+    text-align: center;
+    margin: 8px;
+    font-family: 'Merriweather', serif;
+}
+
+.fw-light{
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    
+}
+.skills{
+    text-align: center;
+}
+.hr{
+    text-align: center;
+}
+.bottom-container{
+    text-align: center;
+    background-color: bisque;
+    padding: 50px 0 20px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1,1fre);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+h3{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9c3e08ab !important;
+
+}
+.lead-body{
+    font-size: 30px;
+}
